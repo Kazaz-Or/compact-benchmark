@@ -1,0 +1,12 @@
+{
+  "name": "compact-benchmark-runner",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "benchmark": "node --experimental-strip-types src/main.ts",
+    "analyze": "node --experimental-strip-types src/analyze.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "latest"
+  }
+}
