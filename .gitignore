@@ -14,8 +14,9 @@ package-lock.json
 *.db-wal
 *.db-shm
 
-# Benchmark work directories (created per-run)
+# Benchmark work directories and results (created per-run)
 work/
+results/
 
 # OS
 .DS_Store
