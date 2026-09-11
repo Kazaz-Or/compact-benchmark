@@ -12,7 +12,7 @@ The logic sounds obvious:
 
 I believed this. Most Claude Code users believe this. The mental model is simple: context grows, quality drops, you compact, problem solved.
 
-Then I came across a discussion on [r/ClaudeCodeTLDR](https://www.reddit.com/r/ClaudeCodeTLDR/](https://www.reddit.com/r/ClaudeCodeTLDR/s/ULJkkRcAoN) that made me question everything. The argument went roughly like this:
+Then I came across a discussion on [r/ClaudeCodeTLDR](https://www.reddit.com/r/ClaudeCodeTLDR/s/FvrRDcQxSt) that made me question everything. The argument went roughly like this:
 
 > `/compact` destroys your prompt cache. The summarization request reprocesses your entire context. The turn after compaction rebuilds the cache from scratch. You're paying *more*, not less.
 
