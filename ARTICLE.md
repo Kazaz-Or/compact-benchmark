@@ -12,7 +12,7 @@ The logic sounds obvious:
 
 I believed this. Most Claude Code users believe this. The mental model is simple: context grows, quality drops, you compact, problem solved.
 
-Then I came across a discussion on [r/ClaudeCodeTLDR](https://www.reddit.com/r/ClaudeCodeTLDR/) that made me question everything. The argument went roughly like this:
+Then I came across a discussion on [r/ClaudeCodeTLDR]([https://www.reddit.com/r/ClaudeCodeTLDR/](https://www.reddit.com/r/ClaudeCodeTLDR/s/ULJkkRcAoN)) that made me question everything. The argument went roughly like this:
 
 > `/compact` destroys your prompt cache. The summarization request reprocesses your entire context. The turn after compaction rebuilds the cache from scratch. You're paying *more*, not less.
 
@@ -539,7 +539,7 @@ The biggest context management improvement most people can make is not learning 
 
 The full benchmark — seed project, runner, hidden tests, analysis scripts, graph generation, and raw results — is open source:
 
-**[github.com/kazisaj/compact-benchmark](https://github.com/kazisaj/compact-benchmark)**
+**[github.com/Kazaz-Or/compact-benchmark](https://github.com/Kazaz-Or/compact-benchmark)**
 
 You can reproduce the experiment, run it with more repetitions, or modify the task sequence. The benchmark uses the [Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/overview) (TypeScript) to programmatically drive Claude Code sessions.
 
