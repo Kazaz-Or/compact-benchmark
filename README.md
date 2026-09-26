@@ -4,7 +4,7 @@
 
 This repo contains the benchmark, raw data, analysis, and the resulting article:
 
-**[Read the article → ARTICLE.md](ARTICLE.md)**
+**[Kazi's dev blog](https://www.kazis.dev/blogs/compact-benchmark)**
 
 ## TL;DR of the findings
 
@@ -178,17 +178,6 @@ To re-run the full benchmark from scratch:
 rm -rf results/ work/
 ./run-benchmark.sh --reps 5
 ```
-
-## Contributing
-
-Found a bug? Got different results? [Open an issue](https://github.com/kazisaj/compact-benchmark/issues).
-
-Ideas for improvement:
-- Add Sonnet/Haiku runs for cost comparison across models
-- Test with different cache TTL configurations
-- Add a `/rewind` strategy
-- Test cold-cache compaction scenarios
-- Increase repetitions for statistical significance
 
 ## License
 
